@@ -22,7 +22,7 @@ const Navbar = () => {
                         <div className="flex items-center justify-between py-1 md:py-1 md:block">
                             {/* Logo section */}
                             <Link className="text-3xl text-red-600 font-semibold tracking-[0.1rem] flex items-end gap-x-1 relative">
-                                G<span className="text-xl font-bold text-neutral-100">Y</span>M
+                                F<span className="text-xl font-bold text-neutral-100 px-0.5">I</span>T
                                 <CiDumbbell className="w-5 h-4 text-red-600 absolute top-0 left-[46%] translate-x-[-50%]" />
                             </Link>
                             <div className="md:hidden">
