@@ -10,7 +10,7 @@ const Navbar = () => {
         { name: "Home", link: "/", active: true, },
         { name: "About", link: "/about", active: false, },
         { name: "Services", link: "/services", active: false, },
-        { name: "Plan", link: "/plan", active: false, },
+        { name: "Articles", link: "/articles", active: false, },
         { name: "Contact", link: "/contact", active: false, },
     ];
     return (
@@ -45,7 +45,7 @@ const Navbar = () => {
                         className={`flex justify-between items-center md:block ${navbar ? "block" : "hidden"
                             }`}
                     >
-                        <ul className="list-none lg:flex md:flex sm:block block items-center gap-x-4 gap-y-10">
+                        <ul className="list-none lg:flex md:flex sm:block block items-center gap-x-4 md:space-y-0 space-y-4">
                             {navItems.map((item, index) => (
                                 <li key={index}>
                                     <Link
